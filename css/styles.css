@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;  
+    background: linear-gradient(180deg, #ffa840, #ff0000);
+    background-size: 400% 400%;
+    animation: AnimationName 4s ease-in-out infinite;
+    box-shadow: inset 0 0 5em 1em #0000004a;
+}
+@keyframes AnimationName {
+    0%{background-position:70% 30%}
+    50%{background-position:10% 50%}
+    100%{background-position:80% 20%}
+}  
+
+
+#box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nice {
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+}
