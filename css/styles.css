@@ -31,4 +31,6 @@ body {
     font-weight: 600;
     font-size: 4rem;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    line-height: 1.6;
 }

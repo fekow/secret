@@ -5,7 +5,10 @@ var win = document.getElementById("win");
 var fail = document.getElementById("fail");
 var theme = document.getElementById("theme");
 var click = document.getElementById("click");
+document.addEventListener("click", function(e){
 theme.play()
+document.querySelector('.nice').textContent = ""
+})
 document.addEventListener("keydown", function(e){
 click.play()
 pressed += e.which
